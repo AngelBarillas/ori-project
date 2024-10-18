@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.active {
+  background-color: burlywood;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: whitesmoke;
+}
+
+nav .title {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  margin: 1rem;
+  font-weight: bold;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 0.25rem;
+}
+
+nav ul li a:not(.active):hover {
+  background-color: blanchedalmond;
+}
+
+.menuButton {
+  display: none;
+  position: absolute;
+  margin: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 13%;
+  color: #090909;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.menuButton:hover {
+  border: 1px solid white;
+}
+
+.menuButton:active {
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  display: none;
+  visibility: hidden;
+}
+
+.menuButton span {
+  width: 30px;
+  height: 4px;
+  background: #131313;
+  border-radius: 100px;
+  transition: 0.3s ease;
+}
+
+input[type]:checked ~ span.top {
+  transform: translateY(290%) rotate(45deg);
+  width: 40px;
+}
+
+input[type]:checked ~ span.bot {
+  transform: translateY(-270%) rotate(-45deg);
+  width: 40px;
+  box-shadow: 0 0 10px #495057;
+}
+
+input[type]:checked ~ span.mid {
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+@media (max-width: 480px) {
+  .menuButton {
+    display: flex;
+  }
+
+  nav .title {
+    align-self: center;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: end;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li a {
+    margin: 0.2 0.5rem;
+  }
+}
