@@ -5,9 +5,9 @@ import "../styles/App.css";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <nav>
+    <nav className="scrolled">
       <Link className="title" to="/">
-        Ori Lashes
+        ALOA BEAUTY
       </Link>
 
       <ul className={menuOpen ? "open" : ""}>
@@ -19,6 +19,9 @@ const Navbar = () => {
         </li>
         <li>
           <NavLink to="/contact">Contact</NavLink>
+        </li>
+        <li>
+          <NavLink to="/bookingpage">Book Appointment</NavLink>
         </li>
       </ul>
       <label className="menuButton">

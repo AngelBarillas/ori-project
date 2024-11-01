@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Roboto";
 }
 
 .active {
@@ -17,6 +18,7 @@ nav {
 }
 
 nav .title {
+  display: block;
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
@@ -43,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-  background-color: blanchedalmond;
+  color: rgb(187, 145, 90);
 }
 
 .menuButton {
@@ -137,4 +139,11 @@ input[type]:checked ~ span.mid {
   nav ul li a {
     margin: 0.2 0.5rem;
   }
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("src/assets/IMG_9479.JPG");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }

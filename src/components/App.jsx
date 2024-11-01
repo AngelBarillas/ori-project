@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import "../styles/App.css";
 import Navbar from "./NavBar";
-import { Home, About, Services, Contact } from "./pages";
+import Hero from "./Hero/Hero";
+import { Home, About, Services, Contact, BookingPage } from "../pages";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/bookingpage" element={<BookingPage />} />
       </Routes>
     </>
   );
