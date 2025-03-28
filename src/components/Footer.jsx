@@ -121,7 +121,7 @@ const Footer = () => {
             <Grid item>
               <Link
                 component={RouterLink}
-                to="/Sitemap"
+                to="/SiteMap"
                 variant="body2"
                 color="inherit"
                 underline="hover"
