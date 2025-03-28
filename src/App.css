@@ -143,7 +143,7 @@ input[type]:checked ~ span.mid {
 
 .hero {
   height: 120vh; /* 100% of the viewport height */
-  background-image: url("src/assets/2681751.jpg"); /* Ensure the image path is correct */
+  background-image: url("/2681751.jpg"); /* Ensure the image path is correct */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the background image */
   background-size: cover; /* Ensures the image covers the entire container */

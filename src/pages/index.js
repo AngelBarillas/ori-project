@@ -5,4 +5,4 @@ export { default as Contact } from "./Contact";
 export { default as BookingPage } from "./BookingPage";
 export { default as PrivacyPolicy } from "./PrivacyPolicy";
 export { default as TermsOfService } from "./TermsOfService";
-export { default as Sitemap } from "./Sitemap";
+export { default as Sitemap } from "./SiteMap";
