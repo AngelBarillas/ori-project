@@ -130,7 +130,7 @@ const Sitemap = () => {
                 primary={
                   <Link
                     component={RouterLink}
-                    to="/sitemap"
+                    to="/Sitemap"
                     variant="h6"
                     underline="hover"
                   >

@@ -8,7 +8,7 @@ import {
   IconButton,
 } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
-import { Facebook, Twitter, Instagram, LinkedIn } from "@mui/icons-material";
+import { Facebook, Twitter, Instagram } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -121,7 +121,7 @@ const Footer = () => {
             <Grid item>
               <Link
                 component={RouterLink}
-                to="/SiteMap"
+                to="/Sitemap"
                 variant="body2"
                 color="inherit"
                 underline="hover"
