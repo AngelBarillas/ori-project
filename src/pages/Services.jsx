@@ -47,6 +47,7 @@ const Services = () => {
             </CardActionArea>
             <CardActions>
               <Button
+                type="link"
                 href="/Bookingpage"
                 size="small"
                 sx={{
@@ -81,7 +82,7 @@ const Services = () => {
             </CardActionArea>
             <CardActions>
               <Button
-                href="/Bookingpage"
+                href="/bookingpage"
                 size="small"
                 sx={{
                   color: "white",
@@ -95,7 +96,7 @@ const Services = () => {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <Card sx={{ maxWidth: 450 }}>
-            <CardActionArea component={Link} to="/Bookingpage">
+            <CardActionArea component={Link} to="/bookingpage">
               <CardMedia
                 component="img"
                 image={volumeImage}
