@@ -17,6 +17,7 @@ const Hero = () => {
         >
           Welcome to the Magic of Beauty Transformation.
         </StyledHeroMessage>
+
         <StyledHeroMessage
           variant="h6"
           sx={{
@@ -31,7 +32,7 @@ const Hero = () => {
           "Wake Up Beautiful Every Day" Effortless, luxurious lashes designed to
           make you feel amazing. Book your appointment and transform your look.
         </StyledHeroMessage>
-        <StyledBookAptBtn to="/Bookingpage" variant="contained">
+        <StyledBookAptBtn variant="contained" to="/Bookingpage">
           SEE AVAILABLE DATES
         </StyledBookAptBtn>
       </StyledHeroContainer>

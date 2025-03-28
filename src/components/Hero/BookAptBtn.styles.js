@@ -29,16 +29,12 @@ export const StyledBookAptBtn = styled(Link)`
   text-decoration: none;
   color: white;
   padding: 1rem;
-  margin-top: 8rem;
   display: inline-block;
   outline: 0;
   border: 0;
   cursor: pointer;
   border-radius: 8px;
   padding: 14px 24px 16px;
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 1;
   transition: transform 200ms, background 200ms;
   color: white;
   box-shadow: 0 0 0 0px white inset;

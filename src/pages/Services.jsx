@@ -13,7 +13,9 @@ import volumeImage from "/src/assets/volumelashes.jpg";
 import wispyImage from "/src/assets/wispylashes.jpg";
 import liftImage from "/src/assets/lashlift.jpg";
 import browImage from "/src/assets/browlamination.jpg";
+import { StyledBookAptBtn } from "/src/components/Hero/BookAptBtn.styles.js";
 import { Link } from "react-router-dom";
+
 const Services = () => {
   return (
     <>
@@ -46,16 +48,15 @@ const Services = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Link
+              <StyledBookAptBtn
+                variant="contained"
                 to="/Bookingpage"
-                size="small"
                 sx={{
-                  color: "white",
-                  backgroundColor: "rgb(187, 145, 90, 0.7)",
+                  fontWeight: "bold",
                 }}
               >
-                Book Appointment
-              </Link>
+                BOOK APPOINTMENT
+              </StyledBookAptBtn>
             </CardActions>
           </Card>
         </Grid>
@@ -80,16 +81,15 @@ const Services = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button
-                href="/bookingpage"
-                size="small"
+              <StyledBookAptBtn
+                variant="contained"
+                to="/Bookingpage"
                 sx={{
-                  color: "white",
-                  backgroundColor: "rgb(187, 145, 90, 0.7)",
+                  fontWeight: "bold",
                 }}
               >
-                Book Appointment
-              </Button>
+                BOOK APPOINTMENT
+              </StyledBookAptBtn>
             </CardActions>
           </Card>
         </Grid>
@@ -120,16 +120,15 @@ const Services = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button
-                href="/Bookingpage"
-                size="small"
+              <StyledBookAptBtn
+                variant="contained"
+                to="/Bookingpage"
                 sx={{
-                  color: "white",
-                  backgroundColor: "rgb(187, 145, 90, 0.7)",
+                  fontWeight: "bold",
                 }}
               >
-                Book Appointment
-              </Button>
+                BOOK APPOINTMENT
+              </StyledBookAptBtn>
             </CardActions>
           </Card>
         </Grid>
@@ -160,16 +159,15 @@ const Services = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button
-                href="/Bookingpage"
-                size="small"
+              <StyledBookAptBtn
+                variant="contained"
+                to="/Bookingpage"
                 sx={{
-                  color: "white",
-                  backgroundColor: "rgb(187, 145, 90, 0.7)",
+                  fontWeight: "bold",
                 }}
               >
-                Book Appointment
-              </Button>
+                BOOK APPOINTMENT
+              </StyledBookAptBtn>
             </CardActions>
           </Card>
         </Grid>
@@ -199,16 +197,15 @@ const Services = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button
-                href="/Bookingpage"
-                size="small"
+              <StyledBookAptBtn
+                variant="contained"
+                to="/Bookingpage"
                 sx={{
-                  color: "white",
-                  backgroundColor: "rgb(187, 145, 90, 0.7)",
+                  fontWeight: "bold",
                 }}
               >
-                Book Appointment
-              </Button>
+                BOOK APPOINTMENT
+              </StyledBookAptBtn>
             </CardActions>
           </Card>
         </Grid>
@@ -239,16 +236,15 @@ const Services = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button
-                href="/Bookingpage"
-                size="small"
+              <StyledBookAptBtn
+                variant="contained"
+                to="/Bookingpage"
                 sx={{
-                  color: "white",
-                  backgroundColor: "rgb(187, 145, 90, 0.7)",
+                  fontWeight: "bold",
                 }}
               >
-                Book Appointment
-              </Button>
+                BOOK APPOINTMENT
+              </StyledBookAptBtn>
             </CardActions>
           </Card>
         </Grid>
