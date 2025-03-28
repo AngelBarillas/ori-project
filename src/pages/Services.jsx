@@ -46,9 +46,8 @@ const Services = () => {
               </CardContent>
             </CardActionArea>
             <CardActions>
-              <Button
-                type="link"
-                href="/Bookingpage"
+              <Link
+                to="/Bookingpage"
                 size="small"
                 sx={{
                   color: "white",
@@ -56,7 +55,7 @@ const Services = () => {
                 }}
               >
                 Book Appointment
-              </Button>
+              </Link>
             </CardActions>
           </Card>
         </Grid>
