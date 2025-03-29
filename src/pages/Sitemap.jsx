@@ -31,6 +31,7 @@ const Sitemap = () => {
                     to="/"
                     variant="h6"
                     underline="hover"
+                    sx={{ color: "rgb(187, 145, 90, 0.7)" }} // Custom color applied
                   >
                     Home
                   </Link>
@@ -45,6 +46,7 @@ const Sitemap = () => {
                     to="/about"
                     variant="h6"
                     underline="hover"
+                    sx={{ color: "rgb(187, 145, 90, 0.7)" }} // Custom color applied
                   >
                     About Us
                   </Link>
@@ -59,6 +61,7 @@ const Sitemap = () => {
                     to="/services"
                     variant="h6"
                     underline="hover"
+                    sx={{ color: "rgb(187, 145, 90, 0.7)" }} // Custom color applied
                   >
                     Services
                   </Link>
@@ -73,6 +76,7 @@ const Sitemap = () => {
                     to="/contact"
                     variant="h6"
                     underline="hover"
+                    sx={{ color: "rgb(187, 145, 90, 0.7)" }} // Custom color applied
                   >
                     Contact
                   </Link>
@@ -87,6 +91,7 @@ const Sitemap = () => {
                     to="/bookingpage"
                     variant="h6"
                     underline="hover"
+                    sx={{ color: "rgb(187, 145, 90, 0.7)" }} // Custom color applied
                   >
                     Booking Page
                   </Link>
@@ -105,6 +110,7 @@ const Sitemap = () => {
                     to="/privacy-policy"
                     variant="h6"
                     underline="hover"
+                    sx={{ color: "rgb(187, 145, 90, 0.7)" }} // Custom color applied
                   >
                     Privacy Policy
                   </Link>
@@ -119,6 +125,7 @@ const Sitemap = () => {
                     to="/terms-of-service"
                     variant="h6"
                     underline="hover"
+                    sx={{ color: "rgb(187, 145, 90, 0.7)" }} // Custom color applied
                   >
                     Terms of Service
                   </Link>
@@ -133,6 +140,7 @@ const Sitemap = () => {
                     to="/Sitemap"
                     variant="h6"
                     underline="hover"
+                    sx={{ color: "rgb(187, 145, 90, 0.7)" }} // Custom color applied
                   >
                     Sitemap
                   </Link>

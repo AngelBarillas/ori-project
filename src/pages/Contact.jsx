@@ -89,9 +89,14 @@ const Contact = () => {
               >
                 <Button
                   variant="contained"
-                  color="primary"
                   type="submit"
-                  sx={{ width: "50%" }}
+                  sx={{
+                    width: "50%",
+                    backgroundColor: "rgba(187, 145, 90, 0.7)", // Use rgba() for transparency
+                    "&:hover": {
+                      backgroundColor: "rgba(187, 145, 90, 0.9)",
+                    },
+                  }}
                 >
                   Submit
                 </Button>

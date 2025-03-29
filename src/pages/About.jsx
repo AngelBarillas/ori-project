@@ -80,6 +80,7 @@ const About = () => {
           </Box>
         </Grid>
       </Grid>
+      <br />
       <StyledHeroContainer>
         <StyledBookAptBtn to="/Bookingpage" variant="contained">
           SEE AVAILABLE DATES
